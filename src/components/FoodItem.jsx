@@ -5,7 +5,7 @@ export default function FoodItem({food}){
         <div className={styles.itemContent}>
         <p className={styles.itemName} >{food.title}</p>
         </div>
-        <div></div>
+        
         <button className={styles.itemButton}>
             View Recipe
         </button>
